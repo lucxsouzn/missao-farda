@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(21, 29, 25);
+    
+}
+
+.logo {
+    position: absolute;
+    top: 0; 
+    left: 50%;
+    transform: translate(-50%);
+    display: block;
+    width: 450px;
+
+}
+
+.descricaodomf {
+    position: absolute;
+    top: 395px;
+    left: 55%;
+    transform: translate(-50%);
+    width: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 19px;
+    max-width: 650px;
+    line-height: 1.22;
+    color: rgb(255, 255, 255);
+}
+
