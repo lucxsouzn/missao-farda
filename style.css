@@ -1,0 +1,222 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden; 
+}
+
+
+#conteudo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 7px;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+    z-index: 3;
+}
+
+
+#logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    z-index: 2;
+}
+
+#logo img {
+    width: 250px;
+    height: auto;
+}
+
+
+#fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1f2b1f; 
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    z-index: 1;
+}
+
+#barra { 
+    position: fixed;
+    top: 50%;
+    left: -100%; 
+    transform: translateY(-50%) skewX(-15deg);
+    background: #111711;
+    color: #ffffff;
+    padding: 40px 60px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    transition: left 1s ease-in-out;
+    z-index: 4;
+    max-width: 380px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 34px;
+}
+
+#barra h2, #barra p {
+    transform: skewX(15deg); 
+    margin: 0;
+    padding: 0;
+}
+
+#barra p{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.1;
+    font: italic;
+}
+#barra {
+    transform: translateY(-50%) skewX(-20deg); 
+    padding: 2000px 100px;    
+}
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+
+#conteudo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 7px;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+    z-index: 3;
+}
+
+
+#logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    z-index: 2;
+}
+
+#logo img {
+    width: 250px;
+    height: auto;
+}
+
+
+#fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1f2b1f;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    z-index: 1;
+}
+
+#barra { 
+    position: fixed;
+    top: 50%;
+    left: -100%; 
+    transform: translateY(-50%) skewX(-15deg);
+    background: #111711;
+    color: #ffffff;
+    padding: 2000px 90px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    transition: left 1s ease-in-out;
+    z-index: 4;
+    max-width: 380px;
+    font-size: 34px;
+}
+#barra h2, #barra p {
+    transform: skewX(15deg);
+    margin: 0;
+    padding: 0;
+}
+#barra p {
+    font-size: 20px;
+    line-height: 1.1;
+    font-style: italic;
+}
+#botoes {
+    position: fixed;
+    top: 50%;
+    right: -100%; 
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 4;
+    transition: right 1s ease-in-out;
+}
+.btn-comecar {
+    padding: 15px 30px;
+    font-size: 30px; 
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 17px;
+    background: #111711;
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    transition: background 0.2s ease;
+}
+.btn-continuar {
+    padding: 15px 30px;
+    font-size: 18px; 
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 17px;
+    background: #111711;
+    color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    transition: background 0.3s ease;
+}
+#botoes button:hover {
+    background: #3b643d;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; 
+    background: radial-gradient(circle, rgba(0,0,0,0) 50%, rgba(0,0,0,0.8) 100%);
+    z-index: 10;
+}
+
